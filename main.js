@@ -72,18 +72,17 @@
 // }
 //  alert(" Los divisores de " + numero + " son: " + divisores.join(', '));
 
-// let array = ["mesa", "taza", "muebles", "gabinete", "bolsas", "nevera", "lapiz", "cama", "televisor", "telefono"]
+// let array = ["mesa", "taza", "muebles", "gabinete", "bolsas", "nevera", "lapiz", "cama", "televisor", "telefono"];
 
-// for (let index = 0; index < array.length; index++) {
-
-//     console.log(array[index]);
+// for (let item of array) {
+//     console.log(item);
 // }
 
-// let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-// for (let index = 0; index < array.length; index++) {
-// let doble = array[index] * 2;
-//     console.log(" el doble " + array[index] + " es: " + doble);
+// for (let item of array) {
+//     let doble = item * 2;
+//     console.log("El doble de " + item + " es: " + doble);
 // }
 
 
