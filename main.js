@@ -157,31 +157,30 @@
 // let eleccion1, eleccion2;
 // let empate = true;
 
-// for (; empate; ) {
-  
-//   eleccion1 = prompt(jugador1 + "," + " elija piedra" + ", " + " papel" + " o tijeras:").toLowerCase();
-//   eleccion2 = prompt(jugador2 + "," + " elija piedra" + ", " + " papel" + " o tijeras:").toLowerCase();
+// while (empate) {
+//     eleccion1 = prompt(jugador1 + ", elija piedra, papel o tijeras:").toLowerCase();
+//     eleccion2 = prompt(jugador2 + ", elija piedra, papel o tijeras:").toLowerCase();
 
-  
-//   if (!opciones.includes(eleccion1) || !opciones.includes(eleccion2)) {
-//     console.log("Ambos jugadores deben elegir entre 'piedra', 'papel' o 'tijeras'. Inténtelo de nuevo.");
-//     continue;
-//   }
+   
+//     if (!opciones.includes(eleccion1) || !opciones.includes(eleccion2)) {
+//         console.log("Ambos jugadores deben elegir entre 'piedra', 'papel' o 'tijeras'. Inténtelo de nuevo.");
+//         continue; 
+//     }
 
- 
-//   if (eleccion1 === eleccion2) {
-//     console.log("Empate, jueguen otra vez.");
-//   } else if (
-//     (eleccion1 === "piedra" && eleccion2 === "tijeras") ||
-//     (eleccion1 === "papel" && eleccion2 === "piedra") ||
-//     (eleccion1 === "tijeras" && eleccion2 === "papel")
-//   ) {
-//     console.log( "¡" + jugador1 + " Felicidades has Ganado :)! "  );
-//     empate = false;
-//   } else {
-//     console.log( "¡" + jugador2 + " Felicidades has Ganado :)! "  );
-//     empate = false;
-//   }
+
+//     if (eleccion1 === eleccion2) {
+//         console.log("Empate, jueguen otra vez.");
+//     } else if (
+//         (eleccion1 === "piedra" && eleccion2 === "tijeras") ||
+//         (eleccion1 === "papel" && eleccion2 === "piedra") ||
+//         (eleccion1 === "tijeras" && eleccion2 === "papel")
+//     ) {
+//         console.log("¡" + jugador1 + " Felicidades has Ganado :)!");
+//         empate = false; 
+//     } else {
+//         console.log("¡" + jugador2 + " Felicidades has Ganado :)!");
+//         empate = false; 
+//     }
 // }
 
 // let numFilas = 5;
@@ -217,23 +216,12 @@
 
 // let numeros = [34, 7, 23, 32, 5, 62, 17, 42, 29, 11];
 
+// numeros.sort(function(a, b) {
+//     return a - b;
+// });
 
-// let n = numeros.length;
-
-
-// for (let i = 0; i < n - 1; i++) {
-
-//   for (let j = 0; j < n - 1 - i; j++) {
-   
-//     if (numeros[j] > numeros[j + 1]) {
-      
-//       let temp = numeros[j];
-//       numeros[j] = numeros[j + 1];
-//       numeros[j + 1] = temp;
-//     }
-//   }
-// }
 // console.log("Array ordenado:", numeros);
+
 
 
 
