@@ -216,10 +216,22 @@
 
 // let numeros = [34, 7, 23, 32, 5, 62, 17, 42, 29, 11];
 
-// numeros.sort(function(a, b) {
-//     return a - b;
-// });
 
+// let n = numeros.length;
+
+
+// for (let i = 0; i < n - 1; i++) {
+
+//   for (let j = 0; j < n - 1 - i; j++) {
+   
+//     if (numeros[j] > numeros[j + 1]) {
+      
+//       let temp = numeros[j];
+//       numeros[j] = numeros[j + 1];
+//       numeros[j + 1] = temp;
+//     }
+//   }
+// }
 // console.log("Array ordenado:", numeros);
 
 
